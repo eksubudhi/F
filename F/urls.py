@@ -18,6 +18,6 @@ from django.urls import path
 from django.urls import include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',include('Fibonacci_App.urls')),
+    #path('admin/', admin.site.urls),
+    path('index',include('Fibonacci_App.urls')),
 ]
